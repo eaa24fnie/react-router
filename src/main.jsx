@@ -6,7 +6,7 @@ import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/react-router"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/react-router-dom/"}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
